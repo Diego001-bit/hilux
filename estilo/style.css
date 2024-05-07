@@ -2,6 +2,7 @@
 *{
     margin: 0px;
     padding: 0%;
+    cursor: default;
 }
 ::-webkit-scrollbar{
     width: 0px;
@@ -21,10 +22,16 @@ main{
     width: 100vw;
     height: 200vh;
 }
-a{
+header a{
     color: white;
     text-decoration: none;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0px 5px;
+    cursor: pointer;
+}
+header a:hover{
+    transition-duration: 1s;
+    text-shadow: 0px 0px 16px #DEC5AA;
 }
 header{
     display: flex;
@@ -36,9 +43,6 @@ header{
     background-image: linear-gradient(to right,#72431A,#D0A06B);
     font-size: 2.5em;
 }
-menu{
-    margin: 0px 10px;
-}
 #pag1{
     display: flex;
     flex-direction: column;
@@ -49,14 +53,18 @@ menu{
     background-image: url(/fundo/4.png);
     background-position: center center;
     background-size: cover;
-}
-#pag2{
-    height: 100vh;
+    border: 4px solid #DEC5AA;
 }
 h1{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 4px 5px 26px #00000065;
     font-size: 8em;
 }
 h2{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 4px 5px 26px #0000003d;
     text-align: center;
     font-size: 4em;
 }
@@ -68,12 +76,36 @@ section{
 }
 ul{
     list-style: none;
-    width: 45%;
+    width: 40%;
+    min-width: 300px;
 }
 li{
     font-size: 2em;
+    padding: 5px;
+    margin-top: 40px;
+    border-radius:10px;
+    background-color: #8A6A4E;
+    border: 2px solid #DEC5AA;
+    min-width: 300px;
+}
+li:hover{
+    transition-duration: 1s;
+    box-shadow: 0px 0px 16px #DEC5AA;
+
 }
 #hilux-2023{
     max-width: 1000px;
-    width: 45%;
+    min-width: 600px;
+    width: 50%;
 }
+
+/* pagina 2 */
+
+#pag2{
+    display: flex;
+    background-image: url(../fundo/3.png);
+    height: 100vh;
+    width: 100vw;
+    border: 2px solid #DEC5AA;
+}
+
