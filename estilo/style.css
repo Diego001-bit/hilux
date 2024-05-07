@@ -20,7 +20,7 @@ main{
     align-items: center;
     justify-content: center;
     width: 100vw;
-    height: 200vh;
+    height: 100vh;
 }
 header a{
     color: white;
@@ -39,7 +39,7 @@ header{
     justify-content: space-between;
     align-items: flex-end;
     width: 100%;
-    height: 80px;
+    height: 60px;
     background-image: linear-gradient(to right,#72431A,#D0A06B);
     font-size: 2.5em;
 }
@@ -73,6 +73,7 @@ section{
     align-items: center;
     justify-content: space-evenly;
     width: 100%;
+    height: 40%;
 }
 ul{
     list-style: none;
@@ -96,16 +97,38 @@ li:hover{
 #hilux-2023{
     max-width: 1000px;
     min-width: 600px;
-    width: 50%;
+    width: 40%;
 }
 
 /* pagina 2 */
 
-#pag2{
+/* #pag2{
     display: flex;
+    align-items: center;
+    justify-content: space-evenly;
     background-image: url(../fundo/3.png);
     height: 100vh;
     width: 100vw;
     border: 2px solid #DEC5AA;
 }
-
+p{
+    font-size: 1em;
+}
+.blocos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 5px;
+    width: 30%;
+    background-color: white;
+    max-width: 300px;
+    padding: 5px;
+}
+.blocos img{
+    width: 100%;
+    height: 200px;
+}
+#logo-toyota{
+    max-width: 300px;
+    width: 40%;
+} */
