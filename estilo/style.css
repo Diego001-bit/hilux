@@ -20,7 +20,6 @@ main{
     align-items: center;
     justify-content: center;
     width: 100vw;
-    height: 100vh;
 }
 header a{
     color: white;
@@ -81,13 +80,14 @@ ul{
     min-width: 300px;
 }
 li{
+    margin: auto;
     font-size: 2em;
     padding: 5px;
     margin-top: 40px;
     border-radius:10px;
     background-color: #8A6A4E;
     border: 2px solid #DEC5AA;
-    min-width: 300px;
+    max-width: 500px;
 }
 li:hover{
     transition-duration: 1s;
@@ -95,9 +95,11 @@ li:hover{
 
 }
 #hilux-2023{
-    max-width: 1000px;
     min-width: 600px;
     width: 40%;
+}
+@media screen {
+    
 }
 
 /* pagina 2 */
