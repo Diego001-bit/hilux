@@ -12,7 +12,6 @@ html{
     display: flex;
     align-items: center;
     justify-content: center;
-    
 }
 main{
     display: flex;
@@ -21,12 +20,17 @@ main{
     justify-content: center;
     width: 100vw;
 }
+
+#titulo-cabeca{
+    font-size: 2em;
+}
 header a{
     color: white;
     text-decoration: none;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 0px 5px;
     cursor: pointer;
+    font-size: 1.2em;
 }
 header a:hover{
     transition-duration: 1s;
@@ -38,11 +42,13 @@ header{
     justify-content: space-between;
     align-items: flex-end;
     width: 100%;
-    height: 60px;
     background-image: linear-gradient(to right,#72431A,#D0A06B);
     font-size: 2.5em;
 }
-#pag1{
+article{
+    height: 100%;
+}
+body{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -99,8 +105,14 @@ li:hover{
     min-width: 600px;
     width: 40%;
 }
-@media screen {
-    
+@media screen and (max-width: 1000px){
+
+}
+@media screen and (max-width: 720px){
+
+}
+@media screen and (max-width: 400px){
+
 }
 
 /* pagina 2 */

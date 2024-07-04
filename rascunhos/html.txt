@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilo/style.css">
+    <title>Vite App</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <a href="https://www.toyota.com.br/" target="_blank" id="titulo-cabeca">Toyota</a>
+        <menu>
+            <a href="index.html">Home</a>
+            <a href="https://www.toyota.com.br/modelos/hilux-cabine-dupla" target="_blank">Mercado</a>
+            <a href="https://toyotabrasil.gupy.io/" target="_blank">sobre</a>
+        </menu>
+      </header>
+      <article id="pag1">
+
+        <div>
+          <h1>HILUX 2023</h1>
+          <h2>ALTO LUXO</h2>
+        </div>
+        <section>
+          <ul>
+            <li><p>1</p></li>
+            <li><p>1</p></li>
+            <li><p>1</p></li>
+            <li><p>1</p></li>
+          </ul>
+          <img src="imagens/hilux.png" alt="hilux-2023" id="hilux-2023">
+        </section>
+      </article>
+      <!-- <article id="pag2">
+        <img src="icone/toyota.png" alt="" id="logo-toyota">
+        <div class="blocos">
+
+          <img src="imagens/historia-60-anos-de-toyota-do-br.jpg" alt="">
+          <p>Sakichi incumbiu seu filho Kichiro de construir o primeiro veículo motorizado do Japão. Foi assim que em 1935, Kichiro apresentou ao mundo o protótipo A1 e, em 1937, inaugurou a Toyota Motor Company.</p>
+          <br>
+          <p>Hoje a Toyota é a maior montadora do planeta, com atuação em 160 países e conhecida pela sua qualidade, inovação e respeito às pessoas e ao meio ambiente.</p>
+        </div>
+        <img src="imagens/Toyota-Hilux-2023-SRX-Limited (1).jpg" alt="">
+      </article> -->
+    </main>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
