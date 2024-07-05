@@ -87,10 +87,8 @@ ul{
     min-width: 300px;
 }
 li{
-    margin: auto;
     font-size: 2em;
     padding: 5px;
-    margin-top: 40px;
     border-radius:10px;
     background-color: #8A6A4E;
     border: 2px solid #DEC5AA;

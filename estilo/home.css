@@ -19,6 +19,12 @@ header{
     width: 100%;
     background-image: linear-gradient(to right,#72431A,#D0A06B);
 }
+a{
+    font-size: 2.5em;
+    margin: 0px 10px;
+    color: white;
+    text-decoration: none;
+}
 main{
     display: flex;
     flex-direction: column;
@@ -34,13 +40,16 @@ article{
     height: 90%;
 }
 h1{
+    margin-left: 5px;
     font-size: 4em;
 }
 h2{
     font-size: 6em;
+    color: white;
 }
 h3{
     font-size: 3.5em;
+    color: white;
 }
 #setorP{
     display: flex;
@@ -57,7 +66,7 @@ h3{
     height: 50%;
 }
 #hilux-2023{
-    width: 40%;
+    width: 50%;
 }
 ul{
     list-style: none;
@@ -66,4 +75,26 @@ ul{
     justify-content: space-around;
     width: 40%;
     height: 100%;
+}
+li{
+    font-size: 1.8em;
+    border-radius:5px;
+    background-color: #8A6A4E;
+    border: 2px solid #DEC5AA;
+    max-width: 500px;
+}
+@media screen and (max-width: 1000px){
+    ul{
+        width: ;
+    }
+    li{
+        font-size: 1.8em;
+        max-width: 500px;
+    }
+}
+@media screen and (max-width: 720px){
+
+}
+@media screen and (max-width: 400px){
+
 }
