@@ -11,6 +11,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+    min-height: 500px;
 }
 header{
     display: flex;
@@ -102,7 +103,7 @@ li{
 }
 @media screen and (max-width: 740px){
     #setors{
-        min-height: 400px;
+        min-height: 300px;
     }
 
     ul{
@@ -132,7 +133,7 @@ li{
         width: 300px;
     }
     #hilux-2023{
-        width: 400px;
+        width: 350px;
     }
 }
 @media screen and (max-width: 425px){
