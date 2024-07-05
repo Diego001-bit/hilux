@@ -65,11 +65,12 @@ h3{
     justify-content: center;
     flex-wrap: wrap;
     width: 100%;
-    height: 50%;
+    height: 60%;
 
 }
 #hilux-2023{
     width: 50%;
+    max-width: 500px;
 }
 ul{
     list-style: none;
@@ -98,7 +99,7 @@ li{
         font-size: 2em;
     }
     #hilux-2023{
-        width: 550px;
+        width: 500px;
     }
 }
 @media screen and (max-width: 740px){
@@ -133,11 +134,9 @@ li{
         width: 300px;
     }
     #hilux-2023{
-        width: 350px;
+        width: 300px;
     }
 }
 @media screen and (max-width: 425px){
-    #hilux-2023{
-        width: 300px;
-    }
+
 }
