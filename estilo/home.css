@@ -11,7 +11,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-    min-height: 600px;
+    min-height: 655px;
 }
 header{
     display: flex;
@@ -69,8 +69,8 @@ h3{
 
 }
 #hilux-2023{
-    width: 50%;
-    max-width: 500px;
+    width: 60%;
+    max-width: 1000px;
 }
 ul{
     list-style: none;
@@ -78,7 +78,8 @@ ul{
     flex-direction: column;
     justify-content: space-between;
     width: 40%;
-    height: 90%;
+    height: 40%;
+
 }
 li{
     font-size: 1.8em;
@@ -88,29 +89,24 @@ li{
     border: 2px solid #DEC5AA;
     max-width: 500px;
 }
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1270px){
     #setors{
         min-height: 320px;
     }
-    ul{
-        height: 40%;
-    }
+
     a{
         font-size: 2em;
     }
     #hilux-2023{
-        width: 500px;
+        width: 60%;
+        max-width: 720px;
     }
 }
 @media screen and (max-width: 740px){
     #setors{
         min-height: 300px;
+        justify-content: left;
     }
-
-    ul{
-        height: 50%;
-    }
-
     h1{
         margin-left: 3px;
         font-size: 2.5em;
@@ -134,9 +130,20 @@ li{
         width: 300px;
     }
     #hilux-2023{
-        width: 300px;
+        margin: auto;
+        max-width: 550px;
+        width: 100%;
     }
 }
+@media screen and (max-width: 545px){
+    ul{
+        height: 35;
+    }
+    #hilux-2023{
+        max-width: 480px;
+    }
+}
+
 @media screen and (max-width: 425px){
     h1{
         margin-left: 3px;
@@ -161,6 +168,6 @@ li{
         width: 250px;
     }
     #hilux-2023{
-        width: 250px;
+        width: 95%;
     }
 }
