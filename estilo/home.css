@@ -11,7 +11,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-    min-height: 655px;
+    min-height: 755px;
 }
 header{
     display: flex;
@@ -82,16 +82,22 @@ ul{
 
 }
 li{
-    font-size: 1.8em;
+    text-align: center;
     border-radius:5px;
     margin: 5px 0px;
     background-color: #8A6A4E;
     border: 2px solid #DEC5AA;
     max-width: 500px;
 }
+p{
+    font-size: 2em;
+}
 @media screen and (max-width: 1270px){
     ul{
         height: 40%;
+    }
+    p{
+        font-size: 1.8em;
     }
     #setors{
         min-height: 320px;
@@ -106,6 +112,16 @@ li{
     }
 }
 @media screen and (max-width: 740px){
+    body{
+        min-height: 890px;
+    }
+    li{
+        text-align: start;
+        text-indent: 10px;
+    }
+    p{
+        font-size: 1.5em;
+    }
     #setors{
         min-height: 300px;
         justify-content: left;
@@ -118,7 +134,7 @@ li{
         font-size: 1em;
     }
     h2{
-        font-size: 4em;
+        font-size: 4.8em;
         color: white;
     }
     h3{
@@ -139,6 +155,9 @@ li{
     }
 }
 @media screen and (max-width: 545px){
+    body{
+        min-height: 860px;
+    }
     ul{
         height: 35;
     }
@@ -148,6 +167,12 @@ li{
 }
 
 @media screen and (max-width: 425px){
+    body{
+        min-height: 670px;
+    }
+    p{
+        font-size: 1em;
+    }
     h1{
         margin-left: 3px;
         font-size: 2.5em;
