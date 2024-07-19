@@ -2,9 +2,11 @@
 *{
     padding: 0%;
     margin: 0%;
+    cursor: default;
 }
 
 body{
+    
     display: flex;
     background-position: center center; 
     background-image: url("../fundo/deserto.png");
@@ -21,10 +23,11 @@ header{
     background-image: linear-gradient(to right,#72431A,#D0A06B);
 }
 a{
-    font-size: 2.5em;
+    font-size: 3.2em;
     margin: 0px 10px;
     color: white;
     text-decoration: none;
+    cursor: pointer;
 }
 main{
     display: flex;
@@ -90,6 +93,7 @@ li{
     max-width: 500px;
 }
 p{
+    cursor: pointer;
     font-size: 2em;
 }
 @media screen and (max-width: 1270px){
@@ -104,7 +108,7 @@ p{
     }
 
     a{
-        font-size: 2em;
+        font-size: 3em;
     }
     #hilux-2023{
         width: 60%;
@@ -119,6 +123,9 @@ p{
         text-align: start;
         text-indent: 10px;
     }
+    a{
+        font-size: 2em;
+    }
     p{
         font-size: 1.5em;
     }
@@ -128,10 +135,7 @@ p{
     }
     h1{
         margin-left: 3px;
-        font-size: 2.5em;
-    }
-    a{
-        font-size: 1em;
+        font-size: 3em;
     }
     h2{
         font-size: 4.8em;
@@ -155,9 +159,29 @@ p{
     }
 }
 @media screen and (max-width: 545px){
+    #menu-bars{
+        font-size: 3em;
+        margin: auto;
+        margin-right: 10px;
+    }
+    /* #area-menu{
+        position: absolute;
+        width: 280px;
+        height: 100vh;
+        padding: 10px;
+        background-color: black;
+        top: 55px;
+        right: 0px;
+        display: flex;
+        flex-direction: column;
+    } */
+    a{
+        font-size: 1.5em;
+    }
     body{
         min-height: 860px;
     }
+
     ul{
         height: 35;
     }
@@ -171,7 +195,7 @@ p{
         min-height: 670px;
     }
     p{
-        font-size: 1em;
+        font-size: 1.2em;
     }
     h1{
         margin-left: 3px;
